@@ -1,0 +1,83 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	/* box-sizing: border-box; */
+}
+
+/* move input form to middle of page  */
+.container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding-left: 570px;
+}
+
+/* set background image  */
+body {
+	background: url("./images/backgroundfinal.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+/* set styles for nav bar  */
+nav {
+	position: relative;
+	display: flex;
+	height: 100px;
+	align-items: center;
+	padding-left: 80px;
+}
+.main_heading {
+	padding-left: 350px;
+	color: white;
+	font-size: 30px;
+}
+
+/* set styles for form  */
+.details_box {
+	position: relative;
+	width: 400px;
+	height: 550px;
+	border: 2px solid lightblue;
+	border-radius: 20px;
+	background-color: transparent;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: rgb(255, 255, 255);
+	background-color: rgba(255, 255, 255, 0.216);
+	backdrop-filter: blur(3px);
+	font-weight: 900;
+	font-size: 20px;
+}
+.enter_details {
+	display: flex;
+	justify-content: center;
+	padding: 10px;
+}
+
+/* set border for table */
+table,
+th,
+tr,
+td {
+	border: 2px solid white;
+	border-collapse: collapse;
+	padding: 10px;
+}
+
+/* set styles for table */
+.student_table {
+	border: 2px solid rgb(173, 216, 230);
+	padding: 20px;
+	margin: 30px;
+	background-color: aqua;
+	display: inline-block;
+	color: white;
+	background-color: rgba(255, 255, 255, 0.216);
+	backdrop-filter: blur(10px);
+	border-radius: 5px;
+	font-size: 22px;
+}
